@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF046A3C2EF178D500F76D29 /* TypingGameJapaneseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF046A3B2EF178D500F76D29 /* TypingGameJapaneseApp.swift */; };
+		FF046A3E2EF178D500F76D29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF046A3D2EF178D500F76D29 /* ContentView.swift */; };
+		FF046A402EF178D700F76D29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF046A3F2EF178D700F76D29 /* Assets.xcassets */; };
+		FF046A432EF178D700F76D29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF046A422EF178D700F76D29 /* Preview Assets.xcassets */; };
+		FF046A4E2EF178D700F76D29 /* TypingGameJapaneseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF046A4D2EF178D700F76D29 /* TypingGameJapaneseTests.swift */; };
+		FF046A582EF178D700F76D29 /* TypingGameJapaneseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF046A572EF178D700F76D29 /* TypingGameJapaneseUITests.swift */; };
+		FF046A5A2EF178D700F76D29 /* TypingGameJapaneseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF046A592EF178D700F76D29 /* TypingGameJapaneseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF046A4A2EF178D700F76D29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF046A302EF178D500F76D29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF046A372EF178D500F76D29;
+			remoteInfo = TypingGameJapanese;
+		};
+		FF046A542EF178D700F76D29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF046A302EF178D500F76D29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF046A372EF178D500F76D29;
+			remoteInfo = TypingGameJapanese;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF046A382EF178D500F76D29 /* TypingGameJapanese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypingGameJapanese.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF046A3B2EF178D500F76D29 /* TypingGameJapaneseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingGameJapaneseApp.swift; sourceTree = "<group>"; };
+		FF046A3D2EF178D500F76D29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF046A3F2EF178D700F76D29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF046A422EF178D700F76D29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF046A442EF178D700F76D29 /* TypingGameJapanese.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TypingGameJapanese.entitlements; sourceTree = "<group>"; };
+		FF046A492EF178D700F76D29 /* TypingGameJapaneseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypingGameJapaneseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF046A4D2EF178D700F76D29 /* TypingGameJapaneseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingGameJapaneseTests.swift; sourceTree = "<group>"; };
+		FF046A532EF178D700F76D29 /* TypingGameJapaneseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypingGameJapaneseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF046A572EF178D700F76D29 /* TypingGameJapaneseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingGameJapaneseUITests.swift; sourceTree = "<group>"; };
+		FF046A592EF178D700F76D29 /* TypingGameJapaneseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingGameJapaneseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF046A682EF1819E00F76D29 /* x12y16pxMaruMonica.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = x12y16pxMaruMonica.ttf; path = "../../Downloads/x12y16pxMaruMonica_2025-09-03/x12y16pxMaruMonica.ttf"; sourceTree = "<group>"; };
+		FF046A692EF182C500F76D29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF046A352EF178D500F76D29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF046A462EF178D700F76D29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF046A502EF178D700F76D29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF046A2F2EF178D500F76D29 = {
+			isa = PBXGroup;
+			children = (
+				FF046A3A2EF178D500F76D29 /* TypingGameJapanese */,
+				FF046A4C2EF178D700F76D29 /* TypingGameJapaneseTests */,
+				FF046A562EF178D700F76D29 /* TypingGameJapaneseUITests */,
+				FF046A392EF178D500F76D29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF046A392EF178D500F76D29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF046A382EF178D500F76D29 /* TypingGameJapanese.app */,
+				FF046A492EF178D700F76D29 /* TypingGameJapaneseTests.xctest */,
+				FF046A532EF178D700F76D29 /* TypingGameJapaneseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF046A3A2EF178D500F76D29 /* TypingGameJapanese */ = {
+			isa = PBXGroup;
+			children = (
+				FF046A692EF182C500F76D29 /* Info.plist */,
+				FF046A682EF1819E00F76D29 /* x12y16pxMaruMonica.ttf */,
+				FF046A3B2EF178D500F76D29 /* TypingGameJapaneseApp.swift */,
+				FF046A3F2EF178D700F76D29 /* Assets.xcassets */,
+				FF046A3D2EF178D500F76D29 /* ContentView.swift */,
+				FF046A442EF178D700F76D29 /* TypingGameJapanese.entitlements */,
+				FF046A412EF178D700F76D29 /* Preview Content */,
+			);
+			path = TypingGameJapanese;
+			sourceTree = "<group>";
+		};
+		FF046A412EF178D700F76D29 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF046A422EF178D700F76D29 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF046A4C2EF178D700F76D29 /* TypingGameJapaneseTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF046A4D2EF178D700F76D29 /* TypingGameJapaneseTests.swift */,
+			);
+			path = TypingGameJapaneseTests;
+			sourceTree = "<group>";
+		};
+		FF046A562EF178D700F76D29 /* TypingGameJapaneseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF046A572EF178D700F76D29 /* TypingGameJapaneseUITests.swift */,
+				FF046A592EF178D700F76D29 /* TypingGameJapaneseUITestsLaunchTests.swift */,
+			);
+			path = TypingGameJapaneseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF046A372EF178D500F76D29 /* TypingGameJapanese */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF046A5D2EF178D700F76D29 /* Build configuration list for PBXNativeTarget "TypingGameJapanese" */;
+			buildPhases = (
+				FF046A342EF178D500F76D29 /* Sources */,
+				FF046A352EF178D500F76D29 /* Frameworks */,
+				FF046A362EF178D500F76D29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TypingGameJapanese;
+			productName = TypingGameJapanese;
+			productReference = FF046A382EF178D500F76D29 /* TypingGameJapanese.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF046A482EF178D700F76D29 /* TypingGameJapaneseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF046A602EF178D700F76D29 /* Build configuration list for PBXNativeTarget "TypingGameJapaneseTests" */;
+			buildPhases = (
+				FF046A452EF178D700F76D29 /* Sources */,
+				FF046A462EF178D700F76D29 /* Frameworks */,
+				FF046A472EF178D700F76D29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF046A4B2EF178D700F76D29 /* PBXTargetDependency */,
+			);
+			name = TypingGameJapaneseTests;
+			productName = TypingGameJapaneseTests;
+			productReference = FF046A492EF178D700F76D29 /* TypingGameJapaneseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF046A522EF178D700F76D29 /* TypingGameJapaneseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF046A632EF178D700F76D29 /* Build configuration list for PBXNativeTarget "TypingGameJapaneseUITests" */;
+			buildPhases = (
+				FF046A4F2EF178D700F76D29 /* Sources */,
+				FF046A502EF178D700F76D29 /* Frameworks */,
+				FF046A512EF178D700F76D29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF046A552EF178D700F76D29 /* PBXTargetDependency */,
+			);
+			name = TypingGameJapaneseUITests;
+			productName = TypingGameJapaneseUITests;
+			productReference = FF046A532EF178D700F76D29 /* TypingGameJapaneseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF046A302EF178D500F76D29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FF046A372EF178D500F76D29 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					FF046A482EF178D700F76D29 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FF046A372EF178D500F76D29;
+					};
+					FF046A522EF178D700F76D29 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FF046A372EF178D500F76D29;
+					};
+				};
+			};
+			buildConfigurationList = FF046A332EF178D500F76D29 /* Build configuration list for PBXProject "TypingGameJapanese" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF046A2F2EF178D500F76D29;
+			productRefGroup = FF046A392EF178D500F76D29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF046A372EF178D500F76D29 /* TypingGameJapanese */,
+				FF046A482EF178D700F76D29 /* TypingGameJapaneseTests */,
+				FF046A522EF178D700F76D29 /* TypingGameJapaneseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF046A362EF178D500F76D29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF046A432EF178D700F76D29 /* Preview Assets.xcassets in Resources */,
+				FF046A402EF178D700F76D29 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF046A472EF178D700F76D29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF046A512EF178D700F76D29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF046A342EF178D500F76D29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF046A3E2EF178D500F76D29 /* ContentView.swift in Sources */,
+				FF046A3C2EF178D500F76D29 /* TypingGameJapaneseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF046A452EF178D700F76D29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF046A4E2EF178D700F76D29 /* TypingGameJapaneseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF046A4F2EF178D700F76D29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF046A5A2EF178D700F76D29 /* TypingGameJapaneseUITestsLaunchTests.swift in Sources */,
+				FF046A582EF178D700F76D29 /* TypingGameJapaneseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF046A4B2EF178D700F76D29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF046A372EF178D500F76D29 /* TypingGameJapanese */;
+			targetProxy = FF046A4A2EF178D700F76D29 /* PBXContainerItemProxy */;
+		};
+		FF046A552EF178D700F76D29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF046A372EF178D500F76D29 /* TypingGameJapanese */;
+			targetProxy = FF046A542EF178D700F76D29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF046A5B2EF178D700F76D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF046A5C2EF178D700F76D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FF046A5E2EF178D700F76D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TypingGameJapanese/TypingGameJapanese.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TypingGameJapanese/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TypingGameJapanese/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yeekrim.TypingGameJapanese;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FF046A5F2EF178D700F76D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TypingGameJapanese/TypingGameJapanese.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TypingGameJapanese/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TypingGameJapanese/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yeekrim.TypingGameJapanese;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FF046A612EF178D700F76D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yeekrim.TypingGameJapaneseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TypingGameJapanese.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TypingGameJapanese";
+			};
+			name = Debug;
+		};
+		FF046A622EF178D700F76D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yeekrim.TypingGameJapaneseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TypingGameJapanese.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TypingGameJapanese";
+			};
+			name = Release;
+		};
+		FF046A642EF178D700F76D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yeekrim.TypingGameJapaneseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TypingGameJapanese;
+			};
+			name = Debug;
+		};
+		FF046A652EF178D700F76D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yeekrim.TypingGameJapaneseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TypingGameJapanese;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF046A332EF178D500F76D29 /* Build configuration list for PBXProject "TypingGameJapanese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF046A5B2EF178D700F76D29 /* Debug */,
+				FF046A5C2EF178D700F76D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF046A5D2EF178D700F76D29 /* Build configuration list for PBXNativeTarget "TypingGameJapanese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF046A5E2EF178D700F76D29 /* Debug */,
+				FF046A5F2EF178D700F76D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF046A602EF178D700F76D29 /* Build configuration list for PBXNativeTarget "TypingGameJapaneseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF046A612EF178D700F76D29 /* Debug */,
+				FF046A622EF178D700F76D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF046A632EF178D700F76D29 /* Build configuration list for PBXNativeTarget "TypingGameJapaneseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF046A642EF178D700F76D29 /* Debug */,
+				FF046A652EF178D700F76D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF046A302EF178D500F76D29 /* Project object */;
+}
